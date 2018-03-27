@@ -1,0 +1,138 @@
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+#logo {
+  float: left;
+  font-family: 'Lily Script One', cursive;
+  display: inline-block;
+  font-size: 30px;
+  color: #11a0e5;
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
+}
+/* Navigation Begin */
+#parent {
+  background-color: white;
+}
+
+#nav {
+    color: white;
+    width: 100%;
+}
+.nav {
+  float: right;
+  font-size: 20px;
+  list-style: none;
+    text-align: left;
+    padding: 16px;
+  margin: 10;
+  background-color: white;
+}
+.nav > li {
+    display:Inline-block;
+    padding: 20px 9px 10px 9px;
+}
+
+ .nav > li a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     padding: 14px 16px;
+     align-items: right;
+ }
+
+ .nav > li > a:hover {
+     color: white;
+     background-color: #11a0e5;
+     font-size: 20px;
+     padding: 14px 16px;
+ }
+
+ .active {
+    background-color: #777B7B;
+    font-size: 20px;
+    padding: 14px 16px;
+ }
+ /* Navigation End */
+
+ /*Portfolio Begin*/
+ * {
+     box-sizing: border-box;
+ }
+ 
+ /* Center website */
+ .main {
+     max-width: 1000px;
+     margin: auto;
+ }
+
+ h1 {
+     font-size: 50px;
+     word-break: break-all;
+ }
+
+ .row {
+     margin: 8px -16px;
+ }
+
+ /* Add padding BETWEEN each column (if you want) */
+ .row,
+ .row > .column {
+     padding: 8px;
+ }
+
+ /* Create four equal columns that floats next to each other */
+ .column {
+     float: left;
+     width: 25%;
+ }
+
+ /* Clear floats after rows */
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ /* Content */
+ .content {
+     background-color: white;
+     padding: 10px;
+ }
+
+ /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 900px) {
+     .column {
+         width: 50%;
+     }
+ }
+
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+     .column {
+         width: 100%;
+     }
+ }
+ /*Portfolio End*/
+
+ @-ms-viewport{
+    width: device-width;768px;
+  }
+
+ @media screen and (max-width: 980px) {
+  
+    body {
+      background-color: #333;
+    }
+  
+  
+    .wrapper {
+      width: 600px;
+    }
+  }
